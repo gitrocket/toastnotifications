@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: burlywood;
+  position: relative;
+}
+
+.toast-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.toast {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: chocolate;
+}
+
+.btn {
+  background-color: chocolate;
+  padding: 20px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
